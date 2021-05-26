@@ -1,4 +1,4 @@
-@media (min-width:481px) {
+@media (min-width:501px) {
     .menu input[type="checkbox"], .menu label {
         display:none;
     }
@@ -270,7 +270,7 @@
         margin-bottom: 50px;
     }
 }
-@media (max-width:480px) {
+@media (max-width:500px) {
     .menu nav {
         position: fixed;
         height:100vh;
@@ -451,7 +451,15 @@
     }
     .edge  {
         width: 100%;
-        margin-left: 0;
+        margin:0 auto;
     }
-    
+    footer .soc2 a {
+        font-size: 18px;
+        margin: 0 auto;
+    }
+    footer .soc1 a {
+        font-size: 18px;
+        padding: 0 0;
+        padding-left: 80px;
+    }
 }
