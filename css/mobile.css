@@ -453,6 +453,12 @@
         width: 100%;
         margin:0 auto;
     }
+    .services .common {
+        width: 55%;
+    }
+    .services .common .p1:last-child {
+        padding-left: 0px;
+    }
     footer .soc2 a {
         font-size: 18px;
         margin: 0 auto;
