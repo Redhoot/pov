@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Дизайн и верстка</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/mobile.css" />
+    <script src='main.js'></script>
+    <link rel="shortcut icon" type="image/x-icon" href="icons8-монитор-100.png" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="menu">
+            <input type="checkbox" id="menu-toggle"/>
+            <label for="menu-toggle">&#9776</label>
+            <nav>
+                <ul>
+                    <li><a href="#about" onclick="document.getElementById('menu-toggle').checked = false">О нас</a>
+                    <li><a href="#exx" onclick="document.getElementById('menu-toggle').checked = false">Портфолио</a></li>
+                    <li><a href="#edge" onclick="document.getElementById('menu-toggle').checked = false">Преимущества</a></li>
+                    <li><a href="#services" onclick="document.getElementById('menu-toggle').checked = false">Цена</a></li>
+                    <li><a href="#footer" onclick="document.getElementById('menu-toggle').checked = false">Контакты</a></li>
+                </ul>
+                </nav>
+        </div>
+        <div class="baner">
+            <div class="photo">
+                <img src="img/каритинка.png" />
+            </div>
+            <div class="wrap">
+                <h2>ДИЗАЙН И ВЕРСТКА</h2>
+                <p>Получи готовый сайт прямо сейчас!</p>
+                <button>Заказать</button>
+
+            </div>
+
+        </div>
+    </header>
+    <div class="about_us">
+        <div id="square"></div>
+        <a name="about"></a>
+        <h2>Здравствуй, <span>Дорогой клиент</span></h2>
+        <p>Меня зовут Алина, я - <span>Web-Дизайнер.</span> Web-дизайн стал неотъемлемой частью моей жизни уже давно. Но
+            не только мне интересна эта сфера. <br> <br>
+            Вместе с моим напарником <span>Павлом</span> мы можем предоставить <span>Вам</span> спектр наших услуг, за
+            счёт опыта и владения такими навыками работы в программах
+            Abode Photoshop, Figma, Tilda Publishing, а также языков
+            HTML5, CSS3 и адативной верстки.
+        </p>
+        <div class="woman"><img src="img/woman-5467535_1280 1.png" /></div>
+    </div>
+    <div class="exx">
+        <a name="exx"></a>
+        <h2>ПРИМЕРЫ РАБОТ</h2>
+        <p>2020-2021 год</p>
+        <div class="slider">
+            <div class="arrow_left"></div>
+            <div class="noyt">
+                <img src="img/ноут.png" alt="" />
+            </div>
+            <div class="arrow_right"></div>
+        </div>
+    </div>
+    <div class="edge">
+        <a name="edge"></a>
+        <h1>Почему стоит рассмотреть нашу <br> <span>кандидатуру</span>?</h1>
+        <div class="c">
+            <div class="c1">
+                <h2>СТОИМОСТЬ</h2>
+                <p>Лояльные цены, варьирующиеся от запросов клиентов, касаемо требуемой работы.<br>
+                    Всегда учту пожелания и выполню работу в соответствии с вашими требованиями.</p>
+                <img src="img/clarity_coin-bag-solid.png" alt="деньги" />
+            </div>
+            <div class="c1">
+                <h2>РАЗВИТИЕ</h2>
+                <p>Я постоянно совершенствую свои навыки, слежу за новыми трендами в этой индустрии.<br>
+                    Будьте уверены, проект будет выполнен в срок, соответствующий всем вашим потребностям.</p>
+                <img src="img/tabler_trending-up.png" alt="деньги" />
+            </div>
+            <div class="c1">
+                <h2>КАЧЕСТВО</h2>
+                <p>Я не стремлюсь взять на себя как можно больше проектов, мне важно качество моей работы, чтобы она
+                    доставила вам удовольствие.<br> <br> <br></p>
+                <img src="img/mdi-light_diamond.png" alt="деньги" />
+            </div>
+        </div>
+    </div>
+    <div class="services">
+        <a name="services"></a>
+        <h1><span>Цены</span> и сроки</h1>
+        <div class="common">
+            <div class="p1">
+                <h3>Лендинг</h3>
+                <div class="time">
+                    <img src="img/mdi_clock.png" />
+                    <p>6-7 Дней</p>
+                </div>
+                <span></span>
+                <div class="price">
+                    <h2>5000 &#8381;</h2>
+                    <p>верстка 5000 &#8381;<br> + 1000 &#8381; адаптив</p>
+                </div>
+            </div>
+            <div class="p1">
+                <div>
+                    <h3>Главная станица</h3>
+                    <div class="time">
+                        <img src="img/mdi_clock.png" />
+                        <p>6-7 Дней</p>
+                    </div>
+                </div>
+                <div class="price">
+                    <h2>3000 &#8381;</h2>
+                    <p>верстка 5000 &#8381; <br> + 1000 &#8381; адаптив</p>
+                </div>
+            </div>
+            <div class="p1">
+                <h3>Внутренняя станица</h3>
+                <div class="time">
+                    <img src="img/mdi_clock.png" />
+                    <p>6-7 Дней</p>
+                </div>
+                <div class="price">
+                    <h2>2000 &#8381;</h2>
+                    <p>верстка 5000 &#8381; <br> + 1000 &#8381; адаптив</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <a name="footer"></a>
+        <h2>Информация для связи</h2>
+        <div class="soc1">
+            <a href="https://www.instagram.com/pavel_ofifical/?hl=ru" target="_blank">Инстаграм</a>
+            <a href="">Телеграмм</a>
+            <a href="">pavel_lodygin@mail.ru</a>
+        </div>
+        <div class="soc2">
+            <a>+7 (908) 569 01 81</a>
+            <a href="https://vk.com/id516002439" target="_blank">Вконтакте</a>
+            <a href="">GitHub</a>
+        </div>
+    </footer>
+</body>
+
+</html>

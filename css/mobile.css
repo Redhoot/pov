@@ -1,0 +1,457 @@
+@media (min-width:481px) {
+    .menu input[type="checkbox"], .menu label {
+        display:none;
+    }
+}
+@media (max-width:1600px) {
+    header .baner .wrap h2 {
+        font-size: 55px;
+    }
+    header .baner .wrap p {
+        font-size: 27px;
+    }
+    .about_us p {
+        font-size: 30px;
+    }
+    .about_us .woman img {
+        margin-left:100px;
+    }
+    .edge .c1 h2 {
+        font-size: 35px;
+    }
+    .edge .c1 p {
+        font-size: 20px;
+    }
+    .services .common {
+        width: 85%;
+    }
+}
+@media (max-width:1400px) {
+    header .baner .wrap h2 {
+        font-size: 42px;
+    }
+    header .baner .wrap p {
+        font-size: 20px;
+    }
+    header .baner .wrap button {
+        width: 300px;
+        height: 90px;
+        cursor: pointer;
+    }
+    .services .common {
+        width: 90%;
+    }
+    .about_us p {
+        font-size: 30px;
+    }
+}
+@media (max-width:1366px) {
+    header .baner .photo img {
+        width: 80%;
+        margin-left: 235px;
+    }
+    .edge h1 {
+        font-size: 50px;
+    }
+    .edge .c1 {
+        width: 28%;
+    }
+    .services .common .p1 .price h2 {
+        font-size: 35px;
+    }
+    .services .common .p1 .price p {
+        font-size: 15px;
+    }
+    .services .common .p1 .time p {
+        font-size: 20px;
+    }
+    footer .soc1 a {
+        font-size: 30px;
+    }
+    footer .soc2 a {
+        font-size: 30px;
+    }
+    footer .soc2 {
+        margin-right:300px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+}
+@media (max-width:1280px) {
+    header .baner .photo img {
+        width: 70%;
+        margin-left:330px;
+    }
+    .edge .c1 h2 {
+        font-size: 30px;
+    }
+    .edge .c1 p {
+        font-size: 17px;
+    }
+    .services .common .p1 .price p {
+        font-size: 13px;
+    }
+    footer .soc1 a {
+        font-size: 25px;
+    }
+    footer .soc2 a {
+        font-size: 23px;
+    }
+    footer .soc2 {
+        margin-right:235px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+}
+@media (max-width:1024px) {
+    .about_us .woman img {
+        display: none;
+    }
+    header .baner .photo {
+        display: none;
+    }
+    .about_us p {
+        font-size: 40px;
+        width: 60%;
+    }
+    .menu nav>ul li a {
+        font-size: 20px;
+    }
+    header .baner .wrap h2 {
+        font-size: 60px;
+    }
+    header .baner .wrap p {
+        font-size: 30px;
+    }
+    .exx .slider .arrow_left {
+        display: none;
+    }
+    .exx .slider .arrow_right {
+        display: none;
+    }
+    .edge .c1 h2 {
+        font-size: 25px;
+    }
+    .edge .c1 p {
+        font-size: 13px;
+    }
+    footer .soc1 a {
+        font-size: 20px;
+    }
+    footer .soc2 a {
+        font-size: 18px;
+    }
+    footer .soc2 {
+        margin-right:200px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .services .common  {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 75%;
+    }
+    .services .common .p1 {
+        padding-left: 0px;
+    }
+    .services .common .p1:first-child {
+        padding-left: 0px;
+    }
+    .services .common .p1:last-child {
+        padding-left: 160px;
+    }
+}
+@media (max-width:980px) {
+    .menu {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .menu nav > ul li a {
+        font-size: 25px;
+    }
+    .menu form {
+        width: 50%;
+        margin-bottom: 10px;
+    }
+    .menu form input {
+        width: 80%;
+    }
+    .about_us h2 {
+        font-size: 45px;
+    }
+    .about_us p {
+        font-size: 25px;
+    }
+    .edge .c {
+        margin-top: 50px;
+    }
+    footer .soc1 a {
+        font-size: 15px;
+    }
+    footer .soc2 a {
+        font-size: 13px;
+    }
+    footer .soc2 {
+        margin-right:150px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .edge h1 {
+        font-size: 40px;
+    }
+    .edge .c {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .edge .c1 {
+        width:70%;
+        margin-top: 40px;
+    }
+    .edge .c1 h2 {
+        font-size: 43px;
+    }
+    .edge .c1 p {
+        font-size: 23px;
+    }
+}
+@media (max-width:768px) {
+    .menu nav > ul li a {
+        font-size: 17px;
+    }
+    header .baner .wrap {
+        margin-top: 175px;
+    }
+    header .baner .wrap h2 {
+        font-size: 40px;
+    }
+    header .baner .wrap p {
+        font-size: 23px;
+    }
+    .about_us h2 {
+        font-size: 30px;
+    }
+    .about_us p {
+        font-size: 20px;
+    }
+    .exx h2 {
+        font-size: 40px;
+    }
+    .exx p {
+        font-size: 25px;
+    }
+    .edge .c1 h2 {
+        font-size: 30px;
+    }
+    .edge .c1 p {
+        font-size: 18px;
+    }
+    .edge .c {
+        margin-right: 200px;
+        width: 75%;
+    }
+    .services h1 {
+        font-size: 55px;
+        margin-top: 150px;
+    }
+    footer h2 {
+        font-size: 40px;
+    }
+    footer .soc1 a {
+        font-size: 10px;
+    }
+    footer .soc2 a {
+        font-size: 10px;
+    }
+    footer .soc2 {
+        margin-right:100px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+}
+@media (max-width:480px) {
+    .menu nav {
+        position: fixed;
+        height:100vh;
+        width:100vh;
+        left: 0;
+        top: 0;
+        background:#7C86E0;
+        z-index: 5;
+        margin-top: -100vh;
+        transition:0.5s;
+    }
+    .menu nav > ul {
+        flex-direction: column;
+        justify-content: flex-start;
+        height: 80vh;
+    }
+    .menu nav > ul li {
+        flex-basis: 50%;
+    }
+    .menu nav > ul li a {
+        display: flex;
+        margin: 0;
+        width: 100%;
+        height: 100%;
+        align-items: center;
+        justify-content: flex-start;
+        font-size: 30px;
+    }
+    .menu from {
+        margin-top: 10px;
+        width: 100%;
+    }
+    .menu input[type="checkbox"] {
+        display:none;
+    }
+    .menu label {
+        position: fixed;
+        right: 10px;
+        top:22px;
+        font-size: 35px;
+        z-index:10;
+        cursor: pointer;
+    }
+    .menu input[type="checkbox"]:checked ~ nav {
+        margin-top: 0;
+        transition: 0.5s;
+    }
+    header .baner .wrap {
+        margin-top: 20px;
+    }
+    header .baner .wrap h2 {
+        text-align: center;
+    }
+    header .baner .wrap p {
+        text-align: center;
+    }
+    header .baner .wrap button {
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+    .edge {
+        margin: 0;
+        text-align: center;
+    }
+    .edge h1 {
+        font-size: 30px;
+        margin: 0 0;
+    }
+    .about_us #square {
+        margin-top: 150px;
+    }
+    .about_us h2 {
+        font-size: 27px;
+        margin: 0 auto;
+        text-align: center;
+        margin-top: 40px;
+    }
+    .about_us p {
+       font-size: 18px;
+       margin: 0 auto;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .edge .c1 {
+        margin-left: 110px;
+    }
+    .edge .c1 p {
+        font-size: 17px;
+    }
+    .services .common {
+        width: 80%;
+    }
+    .services .common .p1 h3 {
+        font-size: 23px;
+    }
+    .services h1 {
+        font-size: 45px;
+        margin-top: 150px;
+    }
+    .services span {
+        font-size: 47px;
+    }
+    footer {
+        flex-direction: column;
+    }
+    footer h2 {
+        font-size: 35px;
+    }
+    footer .soc1 a {
+        font-size: 20px;
+    }
+    footer .soc2 a {
+        font-size: 20px;
+    }
+    footer .soc2 {
+        margin: 0;
+        margin-top: 20px ;
+        margin-bottom: 20px;
+    }
+}
+@media (max-width:375px) {
+    header .baner {
+        margin: 0 auto;
+    }
+    header .baner p {
+        font-size: 15px;
+    }
+    .services .common {
+        width: 70%;
+    }
+    .services h1 {
+        font-size: 30px;
+    }
+    .services span {
+        font-size: 32px;
+    }
+    .services .common .p1 h3 {
+        font-size: 22px;
+    }
+    .services .common .p1 .price h2 {
+        font-size: 20px;
+    }
+    .edge  {
+        width: 95%;
+        margin: 0 auto;
+    }
+    .services .common .p1:last-child {
+        text-align: center;
+        padding: 0 0;
+    }
+    .edge .c .c1 h2 {
+        font-size: 23px;
+    }
+    .edge .c .c1 p {
+        font-size: 14px;
+    }
+    footer h2 {
+        font-size: 30px;
+    }
+    footer .soc1 a {
+        font-size: 20px;
+        padding: 0 0;
+        padding-left: 110px;
+    }
+    footer .soc2 a {
+        font-size: 20px;
+        margin: 0 auto;
+    }
+    footer .soc2 {
+        margin: 0;
+        margin-top: 20px ;
+        margin-bottom: 20px;
+    }
+}
+@media (max-width:320px) {
+    .about_us h2 {
+        font-size: 23px;
+    }
+    .edge  {
+        width: 100%;
+        margin-left: 0;
+    }
+    
+}
