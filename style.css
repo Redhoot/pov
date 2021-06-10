@@ -1,0 +1,449 @@
+body {
+    margin: 0 0;
+    background: #171717;
+}
+
+/*Начало*/
+header {
+    margin-top: 80px;
+}
+
+/*Меню*/
+header .menu {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header .menu label {
+    color:#fff;
+}
+header .menu ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+header .menu ul li {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    padding-left: 60px;
+}
+
+.menu nav>ul li a {
+    display: flex;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 32px;
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: none;
+    cursor: pointer;
+}
+.menu nav>ul li a:hover {
+    color: #7C86E0;
+}
+
+header .baner {
+    display: flex;
+    margin-left: 11.77%;
+    position: relative;
+}
+
+header .baner .wrap {
+    display: flex;
+    margin-top: 235px;
+    flex-direction: column;
+}
+
+header .baner .photo {
+    position: absolute;
+    right: 0;
+    
+}
+header .baner .photo img {
+    width:100%;
+}
+
+header .baner .wrap h2 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 65px;
+    line-height: 88px;
+    color: #FFFFFF;
+}
+
+header .baner .wrap p {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    color: #FFFFFF;
+}
+
+header .baner .wrap button {
+    background: #7C86E0;
+    border-radius: 1px;
+    width: 392px;
+    height: 106px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    color: #FFFFFF;
+    margin-top: 122px;
+    cursor: pointer;
+}
+
+.about_us #square {
+    background: #7C86E0;
+    transform: rotate (0.01deg);
+    height: 64px;
+    display: flex;
+    margin-top: 270px;
+    width: 100%;
+}
+
+.about_us {
+    color: white;
+}
+
+.about_us h2 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 165.9%;
+    letter-spacing: 0.035em;
+    color: #FFFFFF;
+    margin-left: 180px;
+    margin-top: 136px;
+}
+
+.about_us p {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 189.4%;
+    letter-spacing: 0.035em;
+    color: #FFFFFF;
+    margin-left: 180px;
+    width: 55%;
+}
+
+.about_us span {
+    color: #7C86E0;
+}
+
+.about_us .woman {
+    position: relative;
+    align-items: flex-end;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.about_us .woman img {
+    position: absolute;
+    bottom: 5px;
+    width:40%;
+}
+
+/*Примеры работ*/
+.exx h2 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 72px;
+    line-height: 165.9%;
+    text-align: center;
+    letter-spacing: 0.035em;
+    color: #FFFFFF;
+    margin-top: 100px;
+}
+
+.exx p {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 165.9%;
+    text-align: center;
+    letter-spacing: 0.035em;
+    color: #7C86E0;
+}
+
+.exx {
+    display: flex;
+    flex-direction: column;
+}
+
+.exx .slider {
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+}
+
+.exx .slider .arrow_left {
+    background: url(../img/стрелка.png);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    height: 138px;
+    width: 158px;
+    position: absolute;
+    left: 50px;
+    cursor: pointer;
+    display: flex;
+}
+
+.exx .slider .noyt img {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.exx .slider .noyt {
+    background: url(../img/работы.png) no-repeat center center;
+    display: flex;
+    background-size: 63%;
+}
+
+.exx .slider .arrow_right {
+    background: url(../img/стрелка2.png);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    height: 138px;
+    width: 158px;
+    display: flex;
+    position: absolute;
+    right: 50px;
+    cursor: pointer;
+}
+
+/*Кондидатура*/
+.edge {
+    margin-left: 180px;
+}
+
+.edge h1 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 165.9%;
+    letter-spacing: 0.035em;
+    color: #FFFFFF;
+}
+
+.edge span {
+    color: #7C86E0;
+}
+
+.edge .c {
+    margin-top: 136px;
+    display: flex;
+    justify-content: space-around;
+    margin-right: 50px;
+}
+
+.edge .c1 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: #282828;
+    border: 11px solid #313131;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 30%;
+    height: 622px;
+}
+
+.edge .c1 h2 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 124.9%;
+    text-align: center;
+    letter-spacing: 0.035em;
+    color: #FFFFFF;
+    margin-top: 57px;
+    font-family: Montserrat;
+}
+
+.edge .c1 p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 172.4%;
+    letter-spacing: 0.035em;
+    color: #FFFFFF;
+    padding-left: 23px;
+    padding-right: 20px;
+}
+
+/*Услуги*/
+
+.services h1 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 165.9%;
+    letter-spacing: 0.035em;
+    color: #fff;
+    text-align: center;
+    margin-top: 235px;
+}
+
+.services span {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 165.9%;
+    letter-spacing: 0.035em;
+    color: #7C86E0;
+}
+
+.services {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.services .common {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 8px solid #757575;
+    box-sizing: border-box;
+    width: 75%;
+}
+
+.services .common .p1 {
+    padding-left: 160px;
+}
+
+.services .common .p1:first-child {
+    padding-left: 160px;
+}
+
+.services .common .p1:last-child {
+    padding-right: 160px;
+}
+
+.services .common .p1 h3 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 165.9%;
+    letter-spacing: 0.035em;
+    color: #FFFFFF;
+    margin-top: 75px;
+    text-align: center;
+}
+
+.services .common .p1 .time {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 2px solid #797979;
+}
+
+.services .common .p1 .time p {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 165.9%;
+    letter-spacing: 0.035em;
+    color: #FFFFFF;
+    list-style-image: url('../img/mdi_clock.png');
+    padding-left: 14px;
+}
+
+.services .common .p1 .price h2 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 48px;
+    line-height: 165.9%;
+    text-align: center;
+    letter-spacing: 0.035em;
+    color: #FFFFFF;
+    margin: 0 0;
+    margin-top: 85px;
+}
+
+.services .common .p1 .price p {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 165.9%;
+    text-align: center;
+    letter-spacing: 0.035em;
+    color: #FFFFFF;
+    margin: 0 0;
+    margin-bottom: 85px;
+}
+
+/*Подвал*/
+footer {
+    background: #282828;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 240px;
+}
+
+footer h2 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 165.9%;
+    text-align: center;
+    letter-spacing: 0.035em;
+    color: #FFFFFF;
+}
+
+footer .soc1 a {
+    padding-left: 150px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 165.9%;
+    text-align: center;
+    letter-spacing: 0.035em;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+footer .soc2 a {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 165.9%;
+    letter-spacing: 0.035em;
+    color: #7C86E0;
+    text-decoration: none;
+    padding-left: 150px;
+    text-align: left;
+}
+
+footer .soc2 {
+    margin-right: 400px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
